@@ -1,0 +1,45 @@
+a=input("Enter the name:\n")
+b=input("Enter the plasce:\nFrom:\n")
+c=input("To:\n")
+print("choose type of coach:")
+d=int(input("1.Deluxe 2.Push back 3.Semi sleeper 4.Sleeper\n"))
+if(d==1):
+    e=int(input("Enter the Km:"))
+    f=e*0.5
+    print("__________________________________________")
+    print("\tG A V Travells\nYour bill is:")
+    print("  Name:",a)
+    print("  From:",b+"\tTo:",c)
+    print("  Your travell distance",e)
+    print("  Your amount is:",f)
+    print("__________________________________________")
+elif(d==2):
+    e=int(input("Enter the Km:"))
+    f=e*0.59
+    print("__________________________________________")
+    print("\tG A V Travells\nYour bill is:")
+    print("  Name:",a)
+    print("  From:",b+"\tTo:",c)
+    print("  Your travell distance",e)
+    print("  Your amount is:",f)
+    print("__________________________________________")
+elif(d==3):
+    e=int(input("Enter the Km:"))
+    f=e*0.63
+    print("__________________________________________")
+    print("\tG A V Travells\nYour bill is:")
+    print("  Name:",a)
+    print("  From:",b+"\tTo:",c)
+    print("  Your travell distance",e)
+    print("  Your amount is:",f)
+    print("__________________________________________")
+if(d==4):
+    e=int(input("Enter the Km:"))
+    f=e*0.67
+    print("__________________________________________")
+    print("\tG A V Travells\nYour bill is:")
+    print("  Name:",a)
+    print("  From:",b+"\tTo:",c)
+    print("  Your travell distance",e)
+    print("  Your amount is:",f)
+    print("__________________________________________")
