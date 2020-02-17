@@ -1,0 +1,7 @@
+import random
+a=random.randrange(1,10,1)
+c=int(input())
+if(a==c):
+    print("you won")
+else:
+    print("you lose")
