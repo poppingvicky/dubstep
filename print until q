@@ -1,0 +1,4 @@
+a=input()
+while("q"!=a):
+    print("Enter another value")
+    a=input()
